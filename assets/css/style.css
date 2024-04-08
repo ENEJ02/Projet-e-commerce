@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.corps {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.entete {
+    /* width: 80%; */
+    height: 15vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 3px solid #F0F0F0;
+
+}
+
+.nav-left ul {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+
+
+}
+
+
+.nav-right ul {
+    width: 20%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px;
+
+}
+
+.nav-left {
+    width: 50%;
+    margin: 0 auto;
+
+}
+.nav-left li,
+.nav-right li {
+
+    list-style: none;
+    justify-content: space-around;
+    margin: 8px;
+}
+
+.nav-left li a,
+.nav-right li a {
+    text-decoration: none;
+    color: #030303;
+}
+
+.welcome2 img {
+    width: 230px;
+}
+
+.welcome1 img {
+    width: 288px;
+}
+
+.hello{
+    display: flex;
+    justify-content: space-between;
+}
+
+span{
+    color: #c65c0b;
+}
+
+.titre{
+ 
+    justify-content: center;
+
+}
+h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 73px;
+}
+
+h3{
+    font-size: 15px;
+    color: #333;
+    padding: 40px;
+}
+
+.btnwelcome  a { 
+    padding: 25px;
+    text-decoration: none ;
+    border-radius: none;
+}
+
